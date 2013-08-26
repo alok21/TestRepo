@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="org.eclipse.jgit-3.0.0.201306101825-r.jar"/>
+	<classpathentry kind="lib" path="jsch-0.1.50.jar"/>
+	<classpathentry kind="lib" path="D:/dbiwin2k3/_GitProject/org.eclipse.jgit-3.0.0.201306101825-r.jar" sourcepath="D:/Shared/eclipse-SDK-4.2.2-win32/plugins/org.eclipse.jgit_3.0.0.201306101825-r.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/api/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/api/errors/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/blame/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/diff/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/dircache/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/errors/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/events/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/fnmatch/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/ignore/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/jgit/internal/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/jgit/internal/storage/dfs/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/jgit/internal/storage/file/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/jgit/internal/storage/pack/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/lib/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/merge/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/nls/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/notes/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/patch/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/revplot/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/revwalk/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/revwalk/filter/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/storage/file/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/storage/pack/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/submodule/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/transport/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/transport/resolver/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/treewalk/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/treewalk/filter/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/jgit/util/io/*"/>
+			<accessrule ignoreifbetter="true" kind="nonaccessible" pattern="**/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/gitresources/gitective-core-0.9.9.jar" sourcepath="C:/Documents and Settings/alokd/.sourceattacher/gitective-core-0.9.9-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

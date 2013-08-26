@@ -18,7 +18,7 @@ public class CookbookHelper {
 		  .findGitDir() // scan up the file system tree
 		  .build();*/
 
-		File gitDir = new File("C:/Users/kishore/git/JavaRepos/.git");
+		File gitDir = new File("E:\\GitRepo\\GitRepo\\.git");
 //		File gitDir = new File("https://github.com/kishore74lko/jgit-cookbook.git");
 		Repository repository = null;
 		try

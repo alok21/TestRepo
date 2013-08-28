@@ -27,7 +27,10 @@ public class Snippet extends RepositoryUtils
 	
 	public static void main(String[] args)
 	{
-		Collection<Ref> refs = RepositoryUtils.getRefs(repo, org.eclipse.jgit.lib.Constants.HEAD);
+		Collection<Ref> refs = RepositoryUtils.getRefs(repo, org.eclipse.jgit.lib.Constants.R_REFS);
+		RepositoryUtils.getBranches(repo);
+		
+		RepositoryUtils.getTags(repo);
 		Iterator<Ref> iterator = refs.iterator();
 		while (iterator.hasNext())
 		{

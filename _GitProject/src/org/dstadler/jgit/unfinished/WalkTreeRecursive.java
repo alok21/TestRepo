@@ -63,6 +63,7 @@ public class WalkTreeRecursive {
 				
 				if (!pathString.endsWith("WalkTreeRecursive.java"))
 					continue;
+			
 				System.out
 						.println("-------------------------------------------");
 				System.out.println("Folder Path: " + pathString);

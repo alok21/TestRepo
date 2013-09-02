@@ -21,17 +21,19 @@ public class ShowLog {
 
 	public static void main(String[] args) throws IOException, GitAPIException {
 		Repository repository = CookbookHelper.openJGitCookbookRepository();
-
+		repository.getConfig();
 		Iterable<RevCommit> logs = new Git(repository).log()
 			.all()
 			.call();
-//		for(RevCommit rev : logs) {
-//			System.out.println("Commit: " + rev + " " + rev.getName() + " " + rev.getId().getName() + rev.getType());
-//			RevTree tree = rev.getTree();
-//			String name = tree.getName();
-//		
-//			
-//		}
+		
+		for(RevCommit rev : logs) {
+			
+			System.out.println("Commit: " + rev + " " + rev.getName() + " " + rev.getId().getName() + rev.getType());
+			RevTree tree = rev.getTree();
+			String name = tree.getName();
+		
+			
+		}
 
 		repository.close();
 	}

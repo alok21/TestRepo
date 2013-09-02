@@ -47,6 +47,7 @@ public class WalkTreeNonRecursive {
 		while (iterator.hasNext())
 		{
 			String string = (String)iterator.next();
+			String k = "1";
 			
 		}
 		/*File workTree = new File("https://github.com/github/testrepo.git");
@@ -68,6 +69,7 @@ public class WalkTreeNonRecursive {
 
 		// now use a TreeWalk to iterate over all files in the Tree recursively
 		// you can set Filters to narrow down the results if needed
+		String k = "E:\\GitRepo\\GitRepo\\_GitProject\\src\\org\\dstadler\\jgit\\unfinished\\WalkTreeNonRecursive.java";
 		TreeWalk treeWalk = new TreeWalk(repository);
 		treeWalk.addTree(tree);
 		treeWalk.setRecursive(false);
